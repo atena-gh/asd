@@ -1,0 +1,126 @@
+body {
+  font-family: IRANSans !important;
+  background-color: #f8f8f8 !important;
+  font-weight: bold !important;
+}
+a{
+  text-decoration: none!important;
+}
+
+.box-shadow{
+  filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.16));
+  border-radius: 16px !important;
+}
+.text-shadow{
+  filter: drop-shadow(0px 3px 3px rgba(0,0,0,0.16 ));
+}
+.truncate{
+  display: -webkit-box;
+  max-width: 200px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.rounded-6{
+  border-radius: 14px;
+}
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+}
+.card-header:first-child{
+  border-top-right-radius: 20px!important;
+  border-top-left-radius: 20px!important;
+}
+.card{
+  border-radius: 20px!important;
+}
+
+/***** form style *******/
+input.form-control,
+textarea.form-control {
+  border-radius: 16px !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.16));
+  font-size: 14px!important;
+}
+.btn {
+  font-size: 14px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  border-radius: 10px !important;
+}
+.form-check-input:checked {
+  background-color: #000!important;
+  border-color: #ddd;
+}
+/***** bottom navbar *******/
+.bottom-nav {
+  border-radius: 20px 20px 0 0;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.24));
+}
+/***** text color *******/
+.text-purple {
+  color: #563285;
+}
+.text-gray {
+  color: #848282;
+}
+.bg-gray{
+  background: #848282!important;
+}
+.bg-orange{
+  background: #D96D00;
+}
+/***** font size *******/
+.fs-large {
+  font-size: 20px !important;
+}
+.fs-medium {
+  font-size: 16px !important;
+}
+.fs-small {
+  font-size: 14px !important;
+}
+.fs-xSmall {
+  font-size: 12px !important;
+}
+/**** media screen  **************/
+@media (min-width:577px) and (max-width:767px) {
+  .screen-width{
+    max-width: 60%!important;
+    margin:auto!important
+  }
+}
+@media (min-width:768px) and (max-width:991px) {
+  .screen-width{
+    max-width: 50%!important;
+    margin:auto!important
+  }
+}
+@media (min-width:992px) {
+  .screen-width{
+    max-width: 40%!important;
+    margin:auto!important
+  }
+  .bottom-nav{
+    max-width: 40%!important;
+    margin-right: 29.9%!important;
+  }
+}
+/*******/
+.main-content{
+  padding-right: 16px;
+  padding-left: 16px!important;
+  margin-bottom: 80px!important;
+}
